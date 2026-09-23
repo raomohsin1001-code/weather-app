@@ -34,8 +34,7 @@ body {
 }
 
 body {
-  background: var(--paper);
-  color: var(--ink);
+  background-color:#f5f0e6;
   font-family: var(--font-ui);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -116,7 +115,7 @@ img {
   margin: 4px 0 0;
   color: var(--ink-soft);
   font-size: 0.95rem;
-  font-style: italic;
+  font-style:normal;
   font-family: var(--font-display);
 }
 
@@ -168,10 +167,10 @@ img {
 
 .search-bar button {
   padding: 10px 20px;
-  background: var(--ink);
-  color: var(--surface);
+  background-color:#1b4332 ;
+  color: white;
   border: 1px solid var(--ink);
-  border-radius: var(--radius);
+  border:none;
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
@@ -540,7 +539,7 @@ img {
 
 footer.app-footer {
   text-align: center;
-  color: var(--ink-faint);
-  font-size: 0.8rem;
+  color: var(black);
+  font-size: 2rem;
   padding: 30px 20px 40px;
 }

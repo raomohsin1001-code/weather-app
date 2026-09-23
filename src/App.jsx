@@ -75,10 +75,10 @@ export default function App() {
       <header className="masthead">
         <div className="masthead__inner">
           <div className="masthead__top">
-            <h1 className="masthead__title">Dispatch</h1>
+            <h1 className="masthead__title">Weather+News App</h1>
             <span className="masthead__date">{TODAY}</span>
           </div>
-          <p className="masthead__tagline">Today's headlines, and the sky above you.</p>
+          <p className="masthead__tagline">"News and Weather, side by side.".</p>
 
           <SearchBar onSearch={handleSearch} initialValue={query} />
           <RecentSearches searches={recentSearches} onSelect={handleSearch} />
@@ -139,7 +139,8 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        News via NewsAPI.org · Weather via Open-Meteo
+        <p>News via NewsAPI.org · Weather via Open-Meteo</p>
+        <p> Made by [Mohsin Javed].2026</p>
       </footer>
     </div>
   )
